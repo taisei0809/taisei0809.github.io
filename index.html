@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AI-YouTube-Studioは、フィクション現実課の運営者が自分のYouTubeチャンネルへ検証済みの動画を非公開アップロードするための個人用ツールです。">
+  <meta name="description" content="AI-YouTube-Studioは、フィクション現実課の運営者が自分のYouTubeチャンネルへ検証済みの動画を非公開でアップロードし、確認後に予約公開を設定するための個人用ツールです。">
   <title>AI-YouTube-Studio｜アプリのご案内</title>
   <style>
     :root{color-scheme:light;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;color:#172235;background:#f5f7fa}*{box-sizing:border-box}body{margin:0;line-height:1.9}main{max-width:820px;margin:48px auto;padding:40px;background:white;border:1px solid #dce3ec;border-radius:18px}a{color:#1555aa;text-underline-offset:4px}h1{font-size:clamp(26px,5vw,38px);line-height:1.4;margin:12px 0 20px}h2{font-size:21px;margin-top:30px}p,ul{margin:12px 0}.tag{display:inline-block;background:#fff1ab;padding:3px 12px;border-radius:6px;font-weight:700;font-size:14px}.muted,footer{color:#596779;font-size:14px}nav{margin-top:28px;padding-top:20px;border-top:1px solid #e5eaf1}footer{margin-top:28px}@media(max-width:640px){main{margin:16px;padding:24px}}
@@ -13,17 +13,19 @@
 <main>
   <span class="tag">フィクション現実課・運営者用ツール</span>
   <h1>AI-YouTube-Studio</h1>
-  <p>「フィクション現実課」の運営者が、自分のYouTubeチャンネルへ完成・検証済みの動画をアップロードするための、個人用のローカルアプリです。</p>
+  <p>「フィクション現実課」の運営者が、自分のYouTubeチャンネルへ完成・検証済みの動画をアップロードし、確認が済んだ動画に公開日時を予約するための、個人用のローカルアプリです。</p>
   <h2>アプリの機能</h2>
   <ul>
     <li>Google認証で接続したYouTubeチャンネルを確認します。</li>
-    <li>運営者が指定した動画とタイトル・説明文を、固定したチャンネルへ非公開でアップロードします。</li>
+    <li>運営者が指定した動画とタイトル・説明文を、固定したチャンネルへ非公開でアップロードします。アップロード時点では必ず非公開です。</li>
+    <li>YouTube側の処理完了と運営者が定めた検査を確認した動画にだけ、運営者が設定した日時の予約公開を設定します。公開はYouTubeが予約日時に行います。</li>
     <li>動画の公開設定と処理状況を確認し、実行結果を記録します。</li>
-    <li>投稿記録を使って、同じ動画の重複アップロードを防ぎます。</li>
+    <li>投稿記録を使って、同じ動画の重複アップロードや重複した予約を防ぎます。</li>
+    <li>動画の削除、コメントの操作、運営者のチャンネル以外への投稿は行いません。</li>
   </ul>
   <h2>Googleへのアクセス許可について</h2>
-  <p>Googleの認証画面で、YouTube動画の管理とアカウントの読み取りに関する許可を求めます。チャンネル確認、動画のアップロード、投稿前後の確認に使用します。Googleアカウントのパスワードを、このアプリが受け取ることはありません。</p>
-  <p>アプリは運営者本人のMac上で動作します。このWebサイトはアプリの説明を掲載するもので、ログインや動画のアップロードを受け付ける画面ではありません。</p>
+  <p>Googleの認証画面で、YouTube動画のアップロード、アカウントの読み取り、YouTubeアカウントの管理に関する許可を求めます。チャンネル確認、動画のアップロード、投稿前後の確認、アップロード済みの自分の動画への予約公開の設定に使用します。Googleアカウントのパスワードを、このアプリが受け取ることはありません。</p>
+  <p>アプリは運営者本人のMac上で動作し、運営者が設定した時刻に自動で実行されることがあります。このWebサイトはアプリの説明を掲載するもので、ログインや動画のアップロードを受け付ける画面ではありません。</p>
   <h2>お問い合わせ</h2>
   <p>Google認証の同意画面に表示される、ユーザーサポートメールアドレスへお問い合わせください。</p>
   <nav><a href="./privacy.html">プライバシーポリシー</a></nav>
